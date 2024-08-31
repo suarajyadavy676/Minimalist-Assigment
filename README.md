@@ -7,12 +7,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# Installation
+# The Minimalist Assignment
+
+This project is built using React, Tailwind CSS, and Chakra UI as part of an assignment for "The Minimalist". It demonstrates a modern web interface with responsive design and accessible components.
+
+## Installation
+
 To get started with the project, follow these steps:
 
-Clone the repository:
-- git clone https://github.com/yourusername/the-minimalist-assignment.git
-Navigate to the project directory:
-- cd the-minimalist-assignment
-Install the dependencies:
-- npm install
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/the-minimalist-assignment.git
+
