@@ -20,7 +20,7 @@ function ViewModal({value}) {
   const finalRef = React.useRef(null)
   return (
     <>
-      <Button mt={4} onClick={onOpen} bg={change?"white":"#FE0000"} textColor={change?"black":"white"}>
+      <Button mt={4} onClick={onOpen} bg={change?"white":"#FE0000"} _hover={{textColor:"black"}} textColor={change?"black":"white"}>
         QUICK VIEW
       </Button>
       <Modal finalFocusRef={finalRef} isOpen={isOpen} onClose={onClose}>
@@ -36,6 +36,8 @@ function ViewModal({value}) {
               </div>
               <div>
                 <p>Raju Rassibomb</p>
+                <p>MRP:</p>
+                <p>Raju's Dreams/-</p>
               </div>
             </div>
           </ModalBody>
